@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ITを学ぶ学生・Lmdye1のポートフォリオサイト">
+  <title>Lmdye1 | Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb-one" aria-hidden="true"></div>
+  <div class="orb orb-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="トップへ">LMD<span>.</span></a>
+    <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="メインナビゲーション">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> IT STUDENT / CREATIVE DEVELOPER</p>
+        <h1>アイデアを、<br><em>動く体験</em>に変える。</h1>
+        <p class="hero-text">JavaやWeb技術を学びながら、使う人に伝わるデザインと、分かりやすいコードを追求しています。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">制作物を見る <span>↗</span></a>
+          <a class="button ghost" href="#contact">連絡する</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="code-card glass">
+          <div class="code-top"><span></span><span></span><span></span><p>developer.js</p></div>
+          <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Lmdye1"</span>,
+  focus: [
+    <span class="green">"Java"</span>,
+    <span class="green">"Web Design"</span>,
+    <span class="green">"Problem Solving"</span>
+  ],
+  status: <span class="green">"Always learning"</span>
+};</code></pre>
+        </div>
+        <div class="status-card glass"><span class="status-dot"></span><div><small>CURRENT STATUS</small><strong>Building something new</strong></div></div>
+        <div class="floating-tag tag-one">&lt;/&gt;</div>
+        <div class="floating-tag tag-two">01</div>
+      </div>
+
+      <div class="scroll-hint"><span></span>SCROLL</div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal"><p>01 / ABOUT</p><h2>学ぶだけで終わらせず、<br>形にする。</h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>専門学校でITを学び、プログラミング、ネットワーク、データベース、セキュリティなど幅広い分野に取り組んでいます。</p>
+          <p>仕組みを理解し、自分の言葉で説明できることを大切にしています。小さな疑問を一つずつ解決しながら、実用的なプロダクトを作れるエンジニアを目指しています。</p>
+        </div>
+        <div class="stats reveal">
+          <article><strong>01</strong><span>ITを学ぶ<br>専門学生</span></article>
+          <article><strong>∞</strong><span>学び続ける<br>好奇心</span></article>
+          <article><strong>100%</strong><span>理解を重視する<br>学習スタイル</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal"><p>02 / SKILLS</p><h2>技術とデザインを、<br>バランスよく。</h2></div>
+      <div class="skill-grid">
+        <article class="skill-card glass reveal"><span>01</span><h3>Development</h3><p>Java / Python / JavaScript</p><div class="skill-icon">{ }</div></article>
+        <article class="skill-card glass reveal"><span>02</span><h3>Web</h3><p>HTML / CSS / Responsive Design</p><div class="skill-icon">◫</div></article>
+        <article class="skill-card glass reveal"><span>03</span><h3>IT Fundamentals</h3><p>Network / Database / Security</p><div class="skill-icon">⌘</div></article>
+        <article class="skill-card glass reveal"><span>04</span><h3>Mindset</h3><p>Logical Thinking / Continuous Learning</p><div class="skill-icon">✦</div></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal"><p>03 / PROJECTS</p><h2>最近の制作と、<br>これから作るもの。</h2></div>
+      <div class="project-list">
+        <article class="project reveal"><div class="project-number">01</div><div class="project-info"><p>WEB DEVELOPMENT</p><h3>Personal Portfolio</h3><span>現在表示している、レスポンシブ対応のポートフォリオサイト。</span><div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div></div><div class="project-preview preview-one"><span>PORTFOLIO<br>2026</span></div></article>
+        <article class="project reveal"><div class="project-number">02</div><div class="project-info"><p>JAVA APPLICATION</p><h3>Console Game Project</h3><span>Javaのクラス設計と例外処理を学ぶためのコンソールゲーム。</span><div class="tags"><b>Java</b><b>OOP</b><b>Error Handling</b></div></div><div class="project-preview preview-two"><span>GAME<br>LOGIC</span></div></article>
+        <article class="project reveal"><div class="project-number">03</div><div class="project-info"><p>NEXT PROJECT</p><h3>Coming Soon</h3><span>学んだ技術を組み合わせた、新しいアプリケーションを計画中。</span><div class="tags"><b>Planning</b><b>Learning</b></div></div><div class="project-preview preview-three"><span>NEXT<br>IDEA</span></div></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-panel glass reveal">
+        <p>04 / CONTACT</p>
+        <h2>一緒に何か、<br><em>面白いもの</em>を作ろう。</h2>
+        <p class="contact-copy">制作や学習についてのメッセージを歓迎します。GitHubから気軽にご連絡ください。</p>
+        <a class="button primary" href="https://github.com/Lmdye1" target="_blank" rel="noopener noreferrer">GitHubを見る <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#top">LMD<span>.</span></a><p>Designed & built by Lmdye1</p><p>© <span id="year"></span></p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
